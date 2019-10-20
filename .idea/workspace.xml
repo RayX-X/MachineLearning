@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea390a09-3126-4c14-920f-6f93018986e7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kNN/digits.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/kNN-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/kNN/.ipynb_checkpoints/kNN-checkpoint.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kNN.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/kNN/kNN.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kNN_.py" beforeDir="false" afterPath="$PROJECT_DIR$/kNN/kNN_.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kNN/kNN.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/kNN/kNN.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kNN/kNN_.py" beforeDir="false" afterPath="$PROJECT_DIR$/kNN/kNN_.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,8 +23,11 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1SNPGhS6TbsPlXPtB0aPr8iJDy6" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../NLP" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -134,5 +134,8 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
