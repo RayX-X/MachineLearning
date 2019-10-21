@@ -82,8 +82,8 @@ def handwriting():
         file_name = test_list[i]
         file_str = path.splitext(file_name)[0]  # take off .txt
         num = int(file_str.split('_')[0])
-        vec_test = img2vector('digits/testDigits/%s' % file_name)
-        classifier_result = classify_data(vec_test, train_mat, labels, 3)
+        test_mat = img2vector('digits/testDigits/%s' % file_name)
+        classifier_result = classify_data(test_mat, train_mat, labels, 3)
 
         super_print(classifier_result, num, i)
 
