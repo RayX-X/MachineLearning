@@ -112,6 +112,6 @@ def super_print(classifier_result, num, i):
     sys.stdout.write(r)
     sys.stdout.flush()  # 刷新 windows 下可有可无 Lunix 下必须要有
 
-
+    
 if __name__ == "__main__":
     handwriting()
