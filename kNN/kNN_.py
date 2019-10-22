@@ -1,6 +1,9 @@
 # -*- coding:utf-8 -*-
 # @Time    : 2019/10/18 20:16
 # @Author  : Ray.X
+"""
+    kNN算法的实现
+"""
 import numpy as np
 import operator
 from os import listdir, path

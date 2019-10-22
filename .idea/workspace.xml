@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea390a09-3126-4c14-920f-6f93018986e7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/kNN/sklean_kNN.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/StudySpace.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/StudySpace.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/kNN/kNN_.py" beforeDir="false" afterPath="$PROJECT_DIR$/kNN/kNN_.py" afterDir="false" />
     </list>
@@ -30,7 +28,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../NLP" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -80,6 +78,9 @@
       <module name="StudySpace" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/kNN" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -121,6 +122,9 @@
       <module name="StudySpace" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/kNN" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -157,6 +161,8 @@
       <workItem from="1571400986942" duration="5094000" />
       <workItem from="1571535036403" duration="1234000" />
       <workItem from="1571559273901" duration="2838000" />
+      <workItem from="1571624101122" duration="51000" />
+      <workItem from="1571744579703" duration="695000" />
     </task>
     <servers />
   </component>
