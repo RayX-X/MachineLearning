@@ -115,3 +115,4 @@ def super_print(classifier_result, num, i):
     
 if __name__ == "__main__":
     handwriting()
+
