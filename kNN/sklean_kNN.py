@@ -7,6 +7,7 @@ from kNN_ import img2vector
 import os
 kNN = KNeighborsClassifier()
 
+
 train_labels = []
 train_list = os.listdir('digits/trainingDigits')  # load the training set
 m = len(train_list)
