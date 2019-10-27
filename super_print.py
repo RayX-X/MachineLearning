@@ -36,3 +36,4 @@ def mode_data(max_num=50000):
 if __name__ == "__main__":
     print("输出")
     mode_data()
+
