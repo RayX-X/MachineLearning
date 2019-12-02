@@ -86,12 +86,12 @@ if __name__ == '__main__':
     """
     发推 “啊，我前天公园散步、昨天购物、今天清理房间了！”，推断这三天的天气 rainy OR sunny
     """
-    obs = ["walk", "shop", "clean"]
-    states = ["rainy", "sunny"]
-    start_p = {"rainy": 0.6, "sunny": 0.4}
-    trans_p = {"rainy": {"rainy": 0.7, "sunny": 0.3}, "sunny": {"rainy": 0.4, "sunny": 0.6}}
-    emit_p = {"rainy": {"walk": 0.1, "shop": 0.4, "clean": 0.5}, "sunny": {"walk": 0.6, "shop": 0.3, "clean": 0.1}}
+    observation = ["walk", "shop", "clean"]
+    Hiddenstates = ["rainy", "sunny"]
+    start_probability = {"rainy": 0.6, "sunny": 0.4}
+    trans_probability = {"rainy": {"rainy": 0.7, "sunny": 0.3}, "sunny": {"rainy": 0.4, "sunny": 0.6}}
+    emit_probability = {"rainy": {"walk": 0.1, "shop": 0.4, "clean": 0.5}, "sunny": {"walk": 0.6, "shop": 0.3, "clean": 0.1}}
 
-    fun = HMM(obs, states, start_p, trans_p, emit_p)
+    fun = HMM(observation, Hiddenstates, start_probability, trans_probability, emit_probability)
     res = fun.viterbi()
     print(res)
