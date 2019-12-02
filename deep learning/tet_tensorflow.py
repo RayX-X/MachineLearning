@@ -8,6 +8,8 @@ import sys
 import time
 old_v = tf.compat.v1.logging.get_verbosity()
 tf.compat.v1.logging.set_verbosity(tf.compat.v1.logging.ERROR)
+
+
 mnist = read_data_sets('MNIST_data', one_hot=True)
 sess = tf.compat.v1.InteractiveSession()  # 创建交互会话 Session
 
