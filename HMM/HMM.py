@@ -56,8 +56,8 @@ class HMM:
         path = {}
 
         # 初始化初始状态 (t == 0)
-        for y in states:
-            V[0][y] = start_p[y] * emit_p[y][obs[0]]
+        for y in self.states:
+            V[0][y] = self.start_p[y] * self.emit_p[y][self.obs[0]]
             path[y] = [y]
 
         # 对t>1的所有节点计算viterbi
@@ -66,9 +66,9 @@ class HMM:
             print(self.obs[t])
             newpath = {}
 
-            for y in states:
+            for y in self.states:
                 # (最大概率， 对应隐状态)= max(前隐状态是y0的概率 * y0转移到y的概率 * y表现为当前显状态的概率), y0 留下这天是y的最大概率
-                (prob, state) = max([(V[t - 1][y0] * trans_p[y0][y] * emit_p[y][obs[t]], y0) for y0 in states])
+                (prob, state) = max([(V[t - 1][y0] * self.trans_p[y0][y] * self.emit_p[y][self.obs[t]], y0) for y0 in self.states])
                 # 记录最大概率
                 V[t][y] = prob
                 # 记录路径
@@ -78,7 +78,7 @@ class HMM:
 
         print_dptable(V)
         # 计算最大概率，及最优路径
-        (prob, state) = max([(V[len(obs) - 1][y], y) for y in states])
+        (prob, state) = max([(V[len(self.obs) - 1][y], y) for y in self.states])
         return prob, path[state]
 
 
